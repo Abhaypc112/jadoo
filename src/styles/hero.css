@@ -1,0 +1,23 @@
+.hero {
+  background-image: url('https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/617938cf58e87917dc7a61ec_woman-planes.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;   
+  height: 85vh;    
+  margin-right: 125px;
+}
+
+.hero1 {
+  background-image: url('https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/617938cf58e87917dc7a61ec_woman-planes.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;   
+  height: 85vh;    
+}
+body{
+    background-image: url('https://cdn.prod.website-files.com/6170700f1a1db6b…ed/617938cf6b1c7ac24443ab5a_Jadoo-travel-logo.svg');
+}
+
+.visibility {
+    opacity: 100px !important
+}
