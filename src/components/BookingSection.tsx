@@ -1,4 +1,5 @@
 import { bookingSteps } from '@/data/bookingSteps'
+import Image from 'next/image'
 import React from 'react'
 
 const BookingSection = () => {
@@ -32,15 +33,15 @@ const BookingSection = () => {
             </div>
       </div>
       <div className="right md:mr-20">
-        <img
-            src={"https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/618103548b0c7818deb95002_trip-to-greece.png"}
+        <Image
+            src='/images/book1.png'
             alt='img'
             width={400}
             height={400}
             className='shadow-2xl rounded-2xl'
         />
-        <img
-            src={"https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/617938cf127bae00a44979c2_trip-to-rome.png"}
+        <Image
+            src="/images/book2.png"
             alt='img'
             width={300}
             height={300}
