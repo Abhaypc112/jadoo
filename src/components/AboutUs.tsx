@@ -19,7 +19,13 @@ const AboutUs = () => {
                 <h3 className='text-gray-700 font-semibold'>Mike Taylor</h3>
                 <p className='text-gray-700'>Lahore, Pakistan</p>
               </div>
-              <img className='absolute top-0 left-0' src="https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/6189b3d342965fa263672fc2_founder-pic.png" alt="" />
+              <Image
+                src="/images/pro1.png"
+                alt="Product Image"
+                width={70}
+                height={70}
+                className="absolute top-0 left-0 object-cover"
+              />
           </div>
           </div>
         </div>
