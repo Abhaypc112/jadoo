@@ -1,5 +1,6 @@
 "use client"
 import { brants } from '@/data/brants'
+import Image from 'next/image'
 import React from 'react'
 
 const AboutUs = () => {
@@ -28,7 +29,13 @@ const AboutUs = () => {
             brants?.map((brant:any, index: number)=>{
               return(
                   <div key={index} className='p-1 px-10 flex justify-center items-center rounded-2xl hover:shadow-2xl'>
-                    <img src={brant} alt="brant" className='w-25 h-10' />
+                   <Image
+                      src={brant}
+                      alt="brant"
+                      width={100}
+                      height={40}
+                      className="w-25 h-10"
+                    />
                   </div>
               )
             })

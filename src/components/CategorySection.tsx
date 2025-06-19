@@ -13,8 +13,8 @@ const CategorySection = () => {
     </h1>
   </div>
 
-  <div className="max-w-6xl mx-auto">
-    <div className="flex flex-wrap md:flex-nowrap">
+  <div className="max-w-6xl mx-auto w-[100%]">
+    <div className="flex flex-wrap justify-center gap-10 md:flex-nowrap w-[100%]">
       {category?.map((category, index) => (
         <CategoryCard
           key={index}

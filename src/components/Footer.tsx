@@ -5,8 +5,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-        <div className='flex flex-col md:flex-row w-[100%] px-20'>
-            <div className=" h-[15rem] grow-2  flex flex-col justify-center p-10 gap-10">
+        <div className='flex flex-col md:flex-row w-[100%] px-20 p-10'>
+            <div className=" h-[15rem] grow-2  flex flex-col justify-center gap-10">
                 <h3 className='text-5xl'>Jadoo.</h3>
                 <p className='max-w-[50%] text-xs'>Book your trip in minute, get full
                     control for much longer.
@@ -36,7 +36,7 @@ const Footer = () => {
                     <p>Low fare tips</p>
                 </div>
             </div>
-            <div className="5 grow-2 flex flex-col items-center gap-5">
+            <div className="5 grow-2 flex flex-col items-center gap-5 p-10">
                 <div className='flex gap-10'>
                     <div className='p-4 shadow-xl rounded-full w-11 h-11 flex justify-center items-center'><FaFacebookF className='w-20 h-20'/></div>
                     <div className='p-3 shadow-xl rounded-full w-11 h-11 flex justify-center items-center bg-pink-400'><FaInstagram className='w-30 h-30'/></div>

@@ -7,7 +7,7 @@ import '@/styles/category.css'
 const CategoryCard = ({title, description, image} : ICategory) => {
 
   return (
-    <div className='w-[90%] md:w-[23rem] h-[25rem] flex justify-center items-center relative in'>
+    <div className='w-[90%] md:w-[30rem] h-[25rem] flex justify-center items-center relative in md:p-8'>
         <Image
             src={"https://cdn.prod.website-files.com/6170700f1a1db6b3a0ac16ed/617938d05808fe56062e63a5_category-active.svg"}
             alt='img'
@@ -15,8 +15,8 @@ const CategoryCard = ({title, description, image} : ICategory) => {
             height={100}
             className='absolute out bottom-0 left-0 opacity-0 transition-opacity duration-800'
         />
-      <div className='w-[18rem] h-[20rem] flex flex-col justify-center items-center gap-5 opacity-100 rounded-4xl z-10 hover:shadow-xl transition duration-800 ease-in-out shadow-[rgb(0, 0, 0)]  bg-white'>
-        <img
+      <div className='w-[17rem] h-[20rem] flex flex-col justify-center items-center gap-5 opacity-100 rounded-4xl z-10 hover:shadow-xl transition duration-800 ease-in-out shadow-[rgb(0, 0, 0)]  bg-white'>
+        <Image
             src={image}
             alt='img'
             width={100}
