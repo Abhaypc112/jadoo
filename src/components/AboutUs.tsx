@@ -32,7 +32,7 @@ const AboutUs = () => {
     </div>
         <div className='flex justify-evenly mt-30 mb-5'>
           {
-            brants?.map((brant:any, index: number)=>{
+            brants?.map((brant, index)=>{
               return(
                   <div key={index} className='p-1 px-10 flex justify-center items-center rounded-2xl hover:shadow-2xl'>
                    <Image
